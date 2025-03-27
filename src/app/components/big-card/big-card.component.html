@@ -2,20 +2,19 @@
     <a href="">
         <div class="big-card__photo">
             <img 
-            src="https://cdn.maioresemelhores.com/imagens/mm-galileo-01.jpg" 
+            src="{{ photoCover }}" 
             height="200px"
             alt="">
         </div>
 
         <div class="big-card__title">
-            <h1>Miss Curcurana</h1>
+            <h1>{{ cardTitle }}</h1>
         </div>
     </a>
 
     <div class="big-card__description">
         <p>
-            Declarada como moradora mais charmosa entre os moradores do bairro de curcurana, Ana Luísa 
-            ganha destaque reconhecimento mundial.
+            {{ cardDescription }}
         </p>
     </div>
 </div>
