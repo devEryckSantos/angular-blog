@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
-    color: white;
-    font-family: 'Segoe UI';
+    background-color: rgb(53, 76, 102);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a{

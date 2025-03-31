@@ -11,9 +11,14 @@
         
         <a [routerLink]="['content', id]">
             <div class="small-card__title">
-                <h1>{{ cardTitle }}</h1>
+                <h3>{{ cardTitle }}</h3>
+            </div>
+
+            <div class="small-card__description">
+                <p>{{ cardDescription }}</p>
             </div>
         </a>
+
     </div>
     <div class="container__small-card__separator">
         <hr/>

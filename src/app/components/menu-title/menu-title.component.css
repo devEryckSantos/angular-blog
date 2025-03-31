@@ -1,12 +1,21 @@
 .container__menu-title{
-    color: aliceblue;
+    background-image: url("https://img.freepik.com/fotos-gratis/raia-manta-realista-na-agua-do-mar_23-2151461095.jpg?t=st=1743304316~exp=1743307916~hmac=bad2d9b2d9b78d02fb8c1450dd1bdcf7bb7271765a73c0a5fd6413f5e983225d&w=1380");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .container__menu-title > h1{
+    color: rgb(167, 208, 255);
+    background-color: rgba(0, 0, 0, 0.363);
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 135px;
-    font-family: 'Segoe UI';
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
 }

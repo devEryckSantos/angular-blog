@@ -1,4 +1,5 @@
 <div class="container__big-card">
+
     <a [routerLink]="['content', id]">
         <div class="big-card__photo">
             <img 
@@ -6,7 +7,9 @@
             height="200px"
             alt="">
         </div>
+    </a>
 
+    <a [routerLink]="['content', id]">
         <div class="big-card__title">
             <h1>{{ cardTitle }}</h1>
         </div>
