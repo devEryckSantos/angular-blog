@@ -13,7 +13,6 @@ export class ContentComponent implements OnInit{
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription: string = ""
-  contentSubtitle:string= ""
   private id:string | null = "0"
   
   constructor(
@@ -21,10 +20,10 @@ export class ContentComponent implements OnInit{
   ) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe( value =>
-      this.id = value.get("id")
-    )
-    this.setValuesToComponent(this.id)
+    this.route.paramMap.subscribe(value => {
+      this.id = value.get("id");
+      this.setValuesToComponent(this.id); // Agora isso roda depois que o ID é realmente pego
+    });
   }
   setValuesToComponent(id:string | null) {
     const result = dataFake.filter(article => article.id == id)[0]

@@ -37,11 +37,9 @@
     background: linear-gradient(90deg, #009dff 8.24%, #0066ff 53.94%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: background 0.3s ease;
 }
 
 .big-card__description > p {
     margin: 10px;
     font-size: 17px;
-    color: #e4f1f7;
 }
