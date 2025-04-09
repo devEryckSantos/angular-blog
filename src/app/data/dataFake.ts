@@ -57,7 +57,7 @@ export const dataFake = [
         Elas também têm algo que ninguém mais tem, a imortalidade! Mas claro, não são todas as espécies que nunca morrem. Sua imortalidade se dá devido a capacidade de se transformar de medusa para pólipo em período de estresse, mantendo-a viva por mais tempo.
         
         Elas ainda brilham no escuro! Não acontece com todas, mas muitas águas-vivas possuem órgãos bioluminescentes, o que as faz brilhar, sendo uma arma para distrair seus predadores.`,
-        "photoCover": "https://static.biologianet.com/2023/03/aguas-vivas-na-agua-azul-do-mar.jpg"
+        "photoCover": "https://p2.piqsels.com/preview/939/616/869/jellyfish-sea-blue-underwater.jpg"
     },
     {
         "id": "4",
@@ -93,6 +93,6 @@ export const dataFake = [
         Polvos são apazes de atravessar buracos do tamanho dos olhos deles e podem dar praticamente qualquer forma aos seus corpos.
         
         E além de tudo isso, os polvos podem mudar de cor e forma. Quando um macho agressivo se prepara para atacar, geralmente adota uma cor mais escura, sobe do fundo do mar e estica os tentáculos para aumentar seu tamanho.`,
-        "photoCover": "https://img.freepik.com/free-photo/view-octopus-its-natural-underwater-habitat_23-2151462334.jpg?t=st=1743378098~exp=1743381698~hmac=b7f1f0b091bd57df47ab8c63fb9fe4f9757eb69aad3ad1f049008ec2a6680752&w=1380"
+        "photoCover": "https://goodfish.org.au/wp-content/uploads/octopus-jpeg.png"
     }
 ]
